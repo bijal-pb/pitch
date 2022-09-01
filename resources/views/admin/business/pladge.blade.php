@@ -1,0 +1,38 @@
+
+<!-- Your main content goes below here: -->
+<div class="row">
+    <div class="col-xl-12">
+        <div id="panel-1" class="panel">
+            <div class="panel-hdr">
+                <h2>
+                Pledge History <span class="fw-300"><i></i></span>
+                </h2>
+                <div class="panel-toolbar">
+                    <button class="btn btn-panel" data-action="panel-collapse" data-toggle="tooltip" data-offset="0,10" data-original-title="Collapse"></button>
+                    <button class="btn btn-panel" data-action="panel-fullscreen" data-toggle="tooltip" data-offset="0,10" data-original-title="Fullscreen"></button>
+                    {{-- <button class="btn btn-panel" data-action="panel-close" data-toggle="tooltip" data-offset="0,10" data-original-title="Close"></button> --}}
+                </div>
+            </div>
+            <div class="panel-container show">
+                 <!-- <button type="button" id="btn-add" class="btn btn-primary float-right m-3" data-toggle="modal" data-target="#default-example-modal">Add Wholeseller</button> -->
+                <div class="panel-content" >
+                    <div id="categoryData">
+                        <table id="pledge-table" class="table table-bordered table-hover table-striped w-100 dataTable dtr-inline">
+                            <thead class="bg-primary-600">
+                                <tr>
+                                    <th>Id </th>
+                                    <th>Profile</th>
+                                    <th>Pladge By</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                    <th>Pledge Date</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
